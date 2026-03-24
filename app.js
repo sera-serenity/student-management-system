@@ -1,10 +1,10 @@
 function login(user) {
 
-if (user.type === "student") {
+if (user.role === "student") {
 return "Student Dashboard";
 }
 
-if (user.type === "admin") {
+if (user.role === "admin") {
 return "Admin Dashboard";
 }
 
